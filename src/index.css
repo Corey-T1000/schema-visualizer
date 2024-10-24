@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Design system tokens */
+  --magenta-600: 322deg 75% 46%;
+  --magenta-700: 322deg 75% 40%;
+  --magenta-800: 322deg 75% 34%;
+
+  --violet-600: 250deg 89% 65%;
+  --violet-700: 250deg 89% 59%;
+  --violet-800: 250deg 89% 53%;
+
+  --teal-600: 173deg 80% 36%;
+  --teal-700: 173deg 80% 30%;
+  --teal-800: 173deg 80% 24%;
+
+  --sand-600: 45deg 6% 88%;
+  --sand-700: 45deg 6% 82%;
+  --sand-800: 45deg 6% 76%;
+}
+
+/* Portal container styles */
+#html-portal {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+#html-portal > div {
+  pointer-events: auto;
+}
